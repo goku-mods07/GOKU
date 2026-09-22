@@ -1,11 +1,10 @@
 {
   "name": "goku-backend",
   "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "npx serve -s . -l $PORT"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "serve": "^14.2.4"
   }
 }
